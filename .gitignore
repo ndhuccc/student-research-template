@@ -1,0 +1,31 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local databases and large local data
+*.db
+*.sqlite
+*.sqlite3
+data/raw/
+data/local/
+checkpoints/
+outputs/tmp/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
